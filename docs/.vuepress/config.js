@@ -63,6 +63,7 @@ module.exports = {
                         {
                             title: 'Dashboard',
                             children: [
+                                ['/UsersManual/Dashboard/Dashboard', 'Dashboard'],
                             ]
                         },
                         {
@@ -140,12 +141,11 @@ module.exports = {
                         {
                             title: '仪表盘',
                             children: [
-
+                                ['/zh/UsersManual/Dashboard/Dashboard', '仪表盘'],
                             ]
                         },
                         {
                             title: '广告活动',
-                            // collapsable: false,//让一个组永远都是展开状态。
                             children: [
                                 ['/zh/UsersManual/bidder/Campaigns', '广告活动'],
                                 ['/zh/UsersManual/bidder/Creative', '广告系列'],
@@ -155,7 +155,6 @@ module.exports = {
                         },
                         {
                             title: '财务',
-                            // collapsable: false,//让一个组永远都是展开状态。
                             children: [
                                 ['/zh/UsersManual/billing/Billing', '账务'],
                                 ['/zh/UsersManual/billing/Invoice', '发票'],
@@ -164,7 +163,6 @@ module.exports = {
                         },
                         {
                             title: '报表',
-                            // collapsable: false,//让一个组永远都是展开状态。
                             children: [
                                 ['/zh/UsersManual/reports/Reports', '报表'],
                                 ['/zh/UsersManual/reports/Alert', '活动智能监控'],
@@ -174,7 +172,6 @@ module.exports = {
                         {
                             // 菜单名
                             title: '管理员',
-                            // collapsable: false,//让一个组永远都是展开状态。
                             // 子菜单
                             children: [
                                 // ['','']=>[路径,标题]
