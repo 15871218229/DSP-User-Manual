@@ -148,8 +148,6 @@
 
 ![EditCreative](./img/Creative/EditCreative.jpg)
 
-
-
 * 我们在编辑完成后点击保存广告即可，会跳转回我们的广告活动页，并且页面会进行刷新。
 
 #### 操作2: 更改广告系列状态
